@@ -1,10 +1,12 @@
 {
   "name": "Recipe-BE",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is the backend for the Secret Recipe App",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "server": "nodemon index.js"
   },
   "repository": {
     "type": "git",
