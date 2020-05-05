@@ -29,7 +29,8 @@ server.use(cors());
 server.use(helmet());
 
 server.get('/', (req, res) => {
-  res.json('family secret')
+  res.status(200).json({ api: 'family secret' });
+  // res.json('family secret')
 });
 
 module.exports = server;
