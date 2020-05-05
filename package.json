@@ -1,9 +1,10 @@
 {
   "name": "Recipe-BE",
   "version": "1.0.0",
-  "description": "",
+  "description": "Secret Family Recipe App",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,7 +24,9 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "helmet": "^3.22.0",
-    "jsonwebtoken": "^8.5.1"
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.5.7",
+    "mongoose": "^5.9.12"
   },
   "devDependencies": {
     "cross-env": "^7.0.2",
