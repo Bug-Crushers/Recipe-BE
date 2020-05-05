@@ -1,11 +1,16 @@
 {
   "name": "Recipe-BE",
+  "jest": {
+    "verbose": true,
+    "testEnvironment": "node"
+  },
   "version": "1.0.0",
   "description": "Secret Family Recipe App",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "jest"
+    "start": "SET NODE_ENV=production & node index",
+    "dev": "nodemon index.js",
+    "test": "SET NODE_ENV=testing & jest --watchAll"
   },
   "repository": {
     "type": "git",
