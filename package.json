@@ -11,6 +11,7 @@
     "start": "SET NODE_ENV=production & node index",
     "dev": "nodemon index.js",
     "test": "SET NODE_ENV=testing & jest --watchAll"
+
   },
   "repository": {
     "type": "git",
