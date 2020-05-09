@@ -20,4 +20,6 @@ const UserSchema = new Schema({
     default: Date.now
   }
 });
-const userModel = new mongoose.model('users', UserSchema);
+
+// const userModel = new mongoose.model('users', UserSchema);
+module.exports = User = mongoose.model('users', UserSchema)
