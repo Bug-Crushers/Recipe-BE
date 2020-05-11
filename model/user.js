@@ -4,8 +4,7 @@ const Schema = mongoose.Schema;
 // Create Schema
 const UserSchema = new Schema({
   name: {
-    type: String,
-    required: true
+    type: String
   },
   email: {
     type: String,
@@ -20,4 +19,6 @@ const UserSchema = new Schema({
     default: Date.now
   }
 });
-const userModel = new mongoose.model('users', UserSchema);
+
+// const userModel = new mongoose.model('users', UserSchema);
+module.exports = User = mongoose.model('users', UserSchema)
